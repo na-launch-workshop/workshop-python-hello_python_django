@@ -26,7 +26,7 @@ commands:
       label: "1. Install dependencies"
       component: tools
       workingDir: ${PROJECT_SOURCE}
-      commandLine: "pip install -r requirements-dev.txt"
+      commandLine: "[ -d .venv ] || python3 -m venv .venv; . .venv/bin/activate; pip install -r requirements-dev.txt"
       group:
         kind: build
         isDefault: true
@@ -35,7 +35,7 @@ commands:
       label: "2. Run tests"
       component: tools
       workingDir: ${PROJECT_SOURCE}
-      commandLine: "python -m pytest"
+      commandLine: ". .venv/bin/activate; python -m pytest"
       group:
         kind: test
         isDefault: true
@@ -44,7 +44,7 @@ commands:
       label: "3. Start development server"
       component: tools
       workingDir: ${PROJECT_SOURCE}
-      commandLine: "python manage.py runserver 0.0.0.0:8080"
+      commandLine: ". .venv/bin/activate; python manage.py runserver 0.0.0.0:8080"
       group:
         kind: run
         isDefault: true
