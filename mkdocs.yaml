@@ -1,5 +1,5 @@
-site_name: Hello Python
-site_description: Introduction to Red Hat Dev Spaces with a Python translation service
+site_name: Hello Django
+site_description: Introduction to Red Hat Dev Spaces with a Django translation service
 
 nav:
   - Overview: index.md
