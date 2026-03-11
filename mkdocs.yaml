@@ -1,0 +1,8 @@
+site_name: Hello Python
+site_description: Introduction to Red Hat Dev Spaces with a Python translation service
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core
