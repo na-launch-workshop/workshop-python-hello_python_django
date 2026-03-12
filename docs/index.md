@@ -10,9 +10,13 @@
 
 This project recreates the FastAPI translation sample using Django. It exposes a single endpoint that returns a localized greeting with an ISO-8601 timestamp appended.
 
+---
+
 ## Prerequisites
 - Python 3.10 or newer
 - pip
+
+---
 
 ## 🐾 **Guided Walkthrough**
 
