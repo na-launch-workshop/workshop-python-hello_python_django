@@ -7,6 +7,7 @@ from functools import lru_cache
 from django.http import HttpRequest, HttpResponse
 from django.utils import timezone as django_timezone
 
+from . import easter_eggs
 from .config import AppConfig, load_config
 
 ERROR_INVALID_JSON = "Invalid JSON format in {filename}"
@@ -47,7 +48,8 @@ def read_root(request: HttpRequest) -> HttpResponse:
             content_type="text/plain; charset=utf-8",
         )
 
-    translation = translations.get(cfg.default_language) or translations.get("EN")
+    secret = easter_eggs.alternate_greeting(cfg.default_language)
+    translation = secret or translations.get(cfg.default_language) or translations.get("EN")
     if not isinstance(translation, str):
         return HttpResponse(
             ERROR_INVALID_JSON.format(filename=cfg.translation_file_name),
@@ -56,7 +58,13 @@ def read_root(request: HttpRequest) -> HttpResponse:
         )
 
     timestamp = django_timezone.now().astimezone(timezone.utc).isoformat()
-    return HttpResponse(
-        f"{translation} @ {timestamp}",
-        content_type="text/plain; charset=utf-8",
+    body = f"{translation} @ {timestamp}"
+    if secret:
+        body += easter_eggs.claim()
+
+    return easter_eggs.add_hint(
+        HttpResponse(
+            body,
+            content_type="text/plain; charset=utf-8",
+        )
     )
