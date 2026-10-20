@@ -4,7 +4,7 @@ metadata:
   name: workshop-python-hello_python_django
   title: Hello Django
   description: |
-    Introduction to Red Hat Dev Spaces with a Django translation service.
+    Introduction to Red Hat Dev Spaces with a Django translation service
   annotations:
     backstage.io/techdocs-ref: dir:.
 #   backstage.io/techdocs-ref: dir:https://<hosted-git-repo>   # use absolute path instead to consolidate techdocs among repo forks
