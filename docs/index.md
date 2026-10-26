@@ -54,8 +54,6 @@ All translations are stored in `resources/translations.json`, copied verbatim fr
 
 ## 🥚 **Easter Eggs!**
 
-Two easter eggs are hidden in this service.
-
 - [ ] Find the easter egg riddle, steps below:
 
 Start the service first with the **3. Start development server** task, then ask it for the riddle at `/eggs`.
@@ -66,9 +64,9 @@ Leave the server task running and open a second terminal (**Terminal** > **New T
 curl http://localhost:8080/eggs
 ```
 
-- [ ] 🥚 Find the two translation easter eggs
+- [ ] 🥚 Find the four translation easter eggs
 
-*"The translation file holds 87 greetings, but the service knows a few it never wrote down. Pirates can read them."*
+*"The translation file holds 85 greetings, but the service knows a few it never wrote down. Pirates can read them."*
 
 You will know you found it when the service hands you a trophy. 🏆
 
