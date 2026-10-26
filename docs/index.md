@@ -52,19 +52,23 @@ All translations are stored in `resources/translations.json`, copied verbatim fr
 
 ---
 
-## 🥚 **Easter Egg!**
+## 🥚 **Easter Eggs!**
 
-One egg is hidden in this service. Start the service, then ask it for the riddle at `/eggs`.
+Two easter eggs are hidden in this service.
 
-From a terminal in your workspace:
+- [ ] Find the easter egg riddle, steps below:
+
+Start the service first with the **3. Start development server** task, then ask it for the riddle at `/eggs`.
+
+Leave the server task running and open a second terminal (**Terminal** > **New Terminal**). That terminal runs in the same container as the server, so `localhost` works here:
 
 ```bash
 curl http://localhost:8080/eggs
 ```
 
-In **OpenShift Dev Spaces**, open the `hello-by-lang` endpoint from the Endpoints view and add `/eggs` to the end of the URL.
+- [ ] 🥚 Find the two translation easter eggs
 
-- [ ] 🥚 Find the easter egg – *"The translation file holds 87 greetings, but the service knows a few it never wrote down. Pirates can read them."*
+*"The translation file holds 87 greetings, but the service knows a few it never wrote down. Pirates can read them."*
 
 You will know you found it when the service hands you a trophy. 🏆
 
