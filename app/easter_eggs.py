@@ -20,7 +20,8 @@ HINT_HEADER = "X-Easter-Eggs"
 
 _VAULT = {
     "hint": (
-        "MSBlZ2cgaGlkZGVuIGluIHRoaXMgc2VydmljZS4gU3RhcnQgd2l0aDogR0VUIC9lZ2dz"
+        "NCBlZ2dzIGhpZGRlbiBpbiB0aGlzIHNlcnZpY2UuIFN0YXJ0IHdpdGg6IEdFVCAvZWdn"
+        "cw=="
     ),
     "greet": (
         "eyJQSVJBVEUiOiAiYWhveSB3b3JsZCwgeWUgc2N1cnZ5IGRldiEiLCAiTEVFVCI6ICJo"
@@ -29,13 +30,14 @@ _VAULT = {
     ),
     "riddle": (
         "8J+lmiBFYXN0ZXIgRWdnIEh1bnQgLSBEamFuZ28gVHJhbnNsYXRpb24gU2VydmljZQo9"
-        "PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCk9u"
-        "ZSBlZ2cgaXMgaGlkZGVuIGluIHRoaXMgc2VydmljZS4KCiAgIlRoZSB0cmFuc2xhdGlv"
-        "biBmaWxlIGhvbGRzIDg1IGdyZWV0aW5ncywgYnV0IHRoZSBzZXJ2aWNlIGtub3dzCiAg"
-        "IGEgZmV3IGl0IG5ldmVyIHdyb3RlIGRvd24uIFBpcmF0ZXMgY2FuIHJlYWQgdGhlbS4i"
-        "CgpIaW50OiBvbmUgZW52aXJvbm1lbnQgdmFyaWFibGUgYWxyZWFkeSBkZWNpZGVzIHdo"
-        "aWNoIGdyZWV0aW5nIHlvdQpnZXQgYmFjaywgYW5kIHJlc291cmNlcy8gaXMgbm90IHRo"
-        "ZSBvbmx5IHBsYWNlIGEgZ3JlZXRpbmcgY2FuIGxpdmUuCgpHb29kIGx1Y2suIPCfkKMK"
+        "PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCkZv"
+        "dXIgZWdncyBhcmUgaGlkZGVuIGluIHRoaXMgc2VydmljZS4KCiAgIlRoZSB0cmFuc2xh"
+        "dGlvbiBmaWxlIGhvbGRzIDg1IGdyZWV0aW5ncywgYnV0IHRoZSBzZXJ2aWNlIGtub3dz"
+        "CiAgIGEgZmV3IGl0IG5ldmVyIHdyb3RlIGRvd24uIFBpcmF0ZXMgY2FuIHJlYWQgdGhl"
+        "bS4iCgpIaW50OiBvbmUgZW52aXJvbm1lbnQgdmFyaWFibGUgYWxyZWFkeSBkZWNpZGVz"
+        "IHdoaWNoIGdyZWV0aW5nIHlvdQpnZXQgYmFjaywgYW5kIHJlc291cmNlcy8gaXMgbm90"
+        "IHRoZSBvbmx5IHBsYWNlIGEgZ3JlZXRpbmcgY2FuIGxpdmUuCgpHb29kIGx1Y2suIPCf"
+        "kKMK"
     ),
     "found": (
         "CgogICAgICAgICBfX19fX19fX19fXwogICAgICAgICcuXz09Xz09Xz1fLicKICAgICAg"
@@ -44,8 +46,9 @@ _VAULT = {
         "ICAgICAgICAgICApICgKICAgICAgICAgICBfLicgJy5fCiAgICAgICAgICBgIiIiIiIi"
         "ImAKCvCfj4YgRUdHIEZPVU5EISDwn4+GCgpZb3UgdGF1Z2h0IHRoaXMgc2VydmljZSB0"
         "byBzcGVhayBhIGxhbmd1YWdlIHRoYXQgd2FzIG5ldmVyIGluCnJlc291cmNlcy90cmFu"
-        "c2xhdGlvbnMuanNvbi4gR28gdGVsbCB0aGUgd29ya3Nob3AgZmFjaWxpdGF0b3IuIPCf"
-        "kKM="
+        "c2xhdGlvbnMuanNvbi4gVGhhdCBpcyBvbmUgb2YgZm91ciAtLSB0aHJlZSBtb3JlCmdy"
+        "ZWV0aW5ncyBhcmUgc3RpbGwgaGlkZGVuLiBHbyB0ZWxsIHRoZSB3b3Jrc2hvcCBmYWNp"
+        "bGl0YXRvci4g8J+Qow=="
     ),
 }
 
